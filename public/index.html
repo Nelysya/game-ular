@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Ular Mangsa Berjalan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ULAR MANGSA BERJALAN</h1>
+        <div class="game-info">
+            <div id="score">Skor: 0</div>
+            <button id="start-btn">Mulai Game</button>
+        </div>
+        
+        <div class="upload-section">
+            <label for="avatar-upload" class="upload-label">
+                Upload Gambarmu untuk Makanan Spesial!
+            </label>
+            <input type="file" id="avatar-upload" accept="image/*">
+            <div id="avatar-preview"></div>
+        </div>
+        
+        <canvas id="game-canvas" width="400" height="400"></canvas>
+        <div class="controls">
+            <p>Gunakan tombol panah untuk bermain</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
